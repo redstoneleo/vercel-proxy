@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/proxy.js": {
-      "runtime": "vercel-node@18.17.1"
+      "runtime": "node@18.18.0"
     }
   },
   "routes": [
