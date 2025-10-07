@@ -1,11 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "api/proxy.js": {
-      "runtime": "nodejs22.x"
+    "api/proxy.py": {
+      "runtime": "python3.11"
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "/api/proxy.js" }
+    { "src": "/(.*)", "dest": "/api/proxy.py" }
   ]
 }
