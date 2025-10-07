@@ -4,7 +4,7 @@ from fastapi import FastAPI, Request, Response
 
 app = FastAPI()
 
-TARGET_HOST = "main.com"  # your Cloudflare-hosted domain
+TARGET_HOST = "mathjoy.eu.org"  # your Cloudflare-hosted domain
 
 @app.api_route("/{path:path}", methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH", "HEAD"])
 async def proxy(request: Request, path: str):
